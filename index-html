@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamelink - Tu portal de juegos y mods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #1e1e2f;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x400/?gaming');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .section h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #1e1e2f;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gamelink</h1>
+        <p>Tu portal de juegos y mods personalizados</p>
+    </header>
+    <nav>
+        <a href="#novedades">Novedades</a>
+        <a href="#mods">Mods populares</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="hero">
+        <h2>Explora un mundo de mods increíbles</h2>
+        <p>Descubre, descarga y comparte tus mods favoritos.</p>
+    </div>
+    <section id="novedades" class="section">
+        <h3>Últimas novedades</h3>
+        <p>Actualizaciones frescas de los mejores mods y juegos.</p>
+        <div class="gallery">
+            <img src="https://source.unsplash.com/250x150/?game" alt="Juego 1">
+            <img src="https://source.unsplash.com/250x150/?modding" alt="Juego 2">
+            <img src="https://source.unsplash.com/250x150/?gaming-console" alt="Juego 3">
+        </div>
+    </section>
+    <section id="mods" class="section">
+        <h3>Mods populares</h3>
+        <p>¡Los mods que están revolucionando el gaming!</p>
+        <div class="gallery">
+            <img src="https://source.unsplash.com/250x150/?fantasy-game" alt="Mod 1">
+            <img src="https://source.unsplash.com/250x150/?racing-game" alt="Mod 2">
+            <img src="https://source.unsplash.com/250x150/?shooter-game" alt="Mod 3">
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Gamelink. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
